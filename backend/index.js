@@ -8,6 +8,8 @@ const consign = require('consign')
 
 consign()
     .then('./configurations/middlewares.js')
+    .then('./api')
+    .then('./configurations/routes.js')
     .into(app) // Injetar como parâmentro em App.
 
 app.listen(3000, () => {
