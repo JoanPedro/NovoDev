@@ -1,10 +1,11 @@
 const app = require('express')() // Centralizador da aplicação.
-
-/*
-    const a = require('express')
-    const app = a()
-*/
+const db = require('./configurations/db')
+    /*
+        const a = require('express')
+        const app = a()
+    */
 const consign = require('consign')
+app.db = db // Consegue realizar as Query diretamente. 
 
 consign()
     .then('./configurations/middlewares.js')
