@@ -1,2 +1,2 @@
-# backend-elements
-Elements of the backend: In this project we use NodeJS, MongoDB, PostgreSQL and Some stuff of VueJS.
+# Elementos do Back-end
+- Elementos do backend: Neste projeto, usamos o NodeJS, MongoDB, PostgreSQL e algumas coisas do VueJS.
